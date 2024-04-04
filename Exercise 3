@@ -1,0 +1,10 @@
+# Exercise 3: Print characters from a string that are present at an even index number
+#  Write a program to accept a string from the user and display characters that are present at an
+# even index number
+
+str = input("Enter your string : ")
+i= 0 
+while i < len(str):
+    if i %2 ==0:
+        print(str[i],end=" ")
+    i+=1
