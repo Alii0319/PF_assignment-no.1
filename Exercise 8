@@ -1,0 +1,9 @@
+# Exercise 8: Check Palindrome Number
+# Write a program to check if the given number is a palindrome number
+a= 282
+str_a = str(a)
+
+if str_a == str_a[::-1]:
+    print("it is palindromic")
+else:
+    print("it is not palindromic")
