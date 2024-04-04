@@ -1,0 +1,15 @@
+# Exercise 1: Calculate the multiplication and sum of two numbers.
+#  Given two integer numbers, return their product only if the product is equal to or lower than
+# 1000. Otherwise, return their sum.
+
+def cal_sum_or_product(num1,num2):
+    product = num1 * num2
+    if product <= 1000:
+        return "product will be",(product) 
+    else :
+         return "sum will be",(num1+num2)
+
+
+num1 = int(input("Enter the value for num1 : "))
+num2 = int(input("Enter the value for num2 : "))
+print(cal_sum_or_product(num1,num2))
