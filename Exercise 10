@@ -1,0 +1,7 @@
+# Exercise 10: Write a Program to extract each digit from an integer in the reverse order.
+
+num = int(input("Enter : "))
+num_str = str(num)
+val = num_str[::-1]
+for a in val:
+    print(a,end=" ")
